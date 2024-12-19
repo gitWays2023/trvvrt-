@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+
+ 
+  #clippath{
+    /* clip-path: polygon(44% 0, 100% 0, 100% 95%, 0 98%, 0% 38%); */
+    clip-path: polygon(48% 0, 100% 0, 100% 20%, 100% 81%, 100% 100%, 18% 100%, 0 100%, 0 38%);
+    
+    
+  }
+
+
+  .origin{
+  transform-origin: right;
+  
+
+  }
+  #birdImg{
+  object-fit: cover ;
+  object-position:  180px center;
+  }
+  
+
+
+  .container{
+    display: grid;
+    grid-template-columns: [col-start] 1fr [col-2] 1fr [col-3] 1fr [col-3] 1fr;
+    grid-template-areas: 
+    "sec1 sec1 sec1  sec2"
+    "sec3 sec3 sec4 sec4"
+   
+    ;
+    grid-gap: 1.5rem;
+   
+
+  }
+  @media(max-width:1023px){
+    .container{
+        grid-template-areas: 
+    "sec1 sec1 sec2  sec2"
+    "sec3 sec3 sec4 sec4"
+    }
+  
+  }
+  /* @media(max-width:534px){
+    .container{
+        grid-template-areas: 
+    "sec1 sec1 sec2  sec2"
+    "sec3 sec3 sec3 sec3"
+    "sec4 sec4 sec4 sec4"
+    } 
+  
+  }*/
+
+  @media(max-width:714px){
+    .container{
+        grid-template-areas: 
+    "sec1 sec1 sec1  sec1"
+    "sec2 sec2 sec2 sec2"
+    "sec3 sec3 sec3 sec3"
+    "sec4 sec4 sec4 sec4"
+
+    }
+  
+  }
+  #a{
+    grid-area:sec1 ;
+  }
+  #b{
+    grid-area: sec2;
+  }
+  #c{
+    grid-area:sec3;
+  }
+  #d{
+    grid-area:sec4 ;
+  }
+}
