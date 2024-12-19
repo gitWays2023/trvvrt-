@@ -33,11 +33,11 @@ function LandingPageSection() {
       </div>
 
 
-      <div id='clippath' className='bg-white  w-[18rem] p-[1rem] hidden 2sm:flex flex-col gap-[3rem] justify-between'>
+      <div id='clippath' className='bg-white mt-[1rem] 2xl:mt-[3.5rem] mr-[2rem] rounded-xl  w-[18rem] p-[1rem] hidden 2sm:flex flex-col gap-[3rem] justify-between'>
           <div className='self-end flex justify-center items-center border border-solid border-black rounded-full w-[50px] h-[50px]'>
             <BsArrowRight className='' />
           </div>
-          <p className='text-[1.3rem]'>Explore our curated list of must-visit destination around the globe</p>
+          <p className='text-[1.3rem] pt-3'>Explore our curated list of must-visit destination around the globe</p>
           <div>
             <hr />
             <div className='flex justify-between'>

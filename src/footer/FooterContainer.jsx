@@ -5,7 +5,7 @@ import FooterSectiTwo from './FooterSectiTwo';
 
 function FooterContainer() {
     return (
-        <footer className='mt-[5rem] flex flex-col gap-[6rem] xl:gap-[0] '>
+        <footer className='mt-[4rem] flex flex-col gap-[6rem] xl:gap-[0] '>
 
           <FooterSectionone />
            <FooterSectiTwo />

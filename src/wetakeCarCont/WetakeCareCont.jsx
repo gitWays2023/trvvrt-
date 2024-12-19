@@ -22,7 +22,7 @@ function WetakeCareCont() {
         }
     ]
     return (
-        <main className='container bg-[#F0F0F0] mt-[7rem] mx-auto  rounded-lg p-[1.5rem] w-full'>
+        <main className='container bg-[#F0F0F0] mt-[4rem] 2lg:mt-[6rem] mx-auto  rounded-lg p-[1.5rem] w-full'>
             <section id='a' className='flex  relative justify-end'>
                 <button className='absolute top-[-0.6rem] xl:top-0 left-0 bg-[black] text-[whitesmoke] text-[0.8rem] rounded-full px-[10px]'>Our benefit</button>
                 <div className='w-full xl:w-[60%] mt-4 xl:mt-0  bg-white p-4 flex flex-col rounded-xl justify-between gap-[2rem]'>

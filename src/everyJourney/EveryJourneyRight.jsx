@@ -4,7 +4,7 @@ import HalfImg from './img/halfimg.png'
 
 function EveryJourneyRight() {
   return (
-    <section className=' gap-[2rem] flex 2sm:gap-[1rem] 2lg:gap-[2rem] mxl:gap-[4rem]'>
+    <section className=' gap-[2rem] mt-[-2rem] sm:mt-0  justify-between sm:justify-normal flex 2sm:gap-[1rem] 2lg:gap-[2rem] mxl:gap-[4rem]'>
     <section className=' w-[10rem] mmd:w-[15rem] hidden 2sm:block 2lg:w-[20rem] h-[15rem] 2lg:h-[20rem] relative'>
         <img id='swimmingduck' src={SwimmingBird} alt="" className='w-full h-full rounded-xl' />
         <div className='absolute p-[0.3rem] rounded-xl flex flex-col gap-[1rem]  bg-white left-[-6rem] mmd:left-[-3rem] 2lg:left-[-1.5rem] top-[3rem] 2lg:top-[6rem]'>
@@ -28,7 +28,7 @@ function EveryJourneyRight() {
             <h1 className='text-[1.5rem] mmd:text-[3rem]'>81%</h1>
             <p>From concept to <br />Completion</p>
         </div>
-        <div className='border rounded-xl px-5 text-[0.9rem] text-center'>
+        <div className='2sm:border 2sm:border-solid rounded-xl px-0 2sm:px-5 text-[0.9rem] text-left 2sm:text-center'>
             Effective fitness guide
         </div>
     </section>
@@ -38,8 +38,8 @@ function EveryJourneyRight() {
             <p>(First)</p>
             <p>(Present)</p>
         </div>
-        <div>
-            <p className='text-center sm:text-right'>Adventure Trip</p>
+        <div className=''>
+            <p className='text-right'>Adventure Trip</p>
         </div>
     </section>
 </section>

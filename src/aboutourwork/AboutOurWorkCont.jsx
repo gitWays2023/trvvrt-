@@ -8,7 +8,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 function AboutOurWorkCont() {
 
     return (
-        <main className=' mt-[7rem]'>
+        <main className=' mt-[3rem] 2sm:mt-[5rem]'>
 
             <section className='flex justify-between items-center w-full xs:w-[80%] xl:w-[43%] mx-auto'>
                 <h1 className='text-[1.4rem] 3sm:text-[2.4rem] leading-[2rem] 3sm:leading-[2.5rem]'>Client about <br /> our work</h1>

@@ -8,7 +8,7 @@ function LandingPContainer() {
     <main className='w-full mt-[5rem] relative  h-[455px] xs:h-[532.4px]'>
     
 
-      <img id='landingImg' src={WaterImg} alt="" className='w-full h-full ' />
+      <img id='landingImg' src={WaterImg} alt="" className='w-full h-full object-cover md:object-fill ' />
 
      <LandingPageSection />
 
